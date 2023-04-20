@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item android:title="My Osoapp Account">
+            <menu>
+                <item android:id="@+id/navi_order"
+                    android:title="Orders"
+                    android:icon="@drawable/ic_baseline_shopping_cart_checkout_24"
+                    />
+                <item android:id="@+id/navi_review"
+                    android:title="Reviews"
+                    android:icon="@drawable/ic_baseline_reviews_24"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Our Categories">
+        <menu>
+
+            <item android:id="@+id/navi_smartphone"
+                android:title="Snacks"
+
+                />
+            <item android:id="@+id/navi_electronics"
+                android:title="Biscuits"
+
+                />
+            <item android:id="@+id/navi_households"
+                android:title="Cakes"
+
+                />
+            <item android:id="@+id/navi_furniture"
+                android:title="Drinks"
+
+                />
+        </menu>
+    </item>
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/navi_contact_us"
+                android:title="Contact Us"
+                android:icon="@drawable/ic_baseline_phone_24"
+                />
+            <item android:id="@+id/navi_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_baseline_feedback_24"
+                />
+            <item android:id="@+id/navi_rate_us"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                />
+            <item android:id="@+id/navi_help"
+                android:title="Help"
+                android:icon="@drawable/ic_baseline_help_center_24"
+                />
+
+
+
+
+        </menu>
+    </item>
+    <item
+        android:title="Admin Panel"
+        >
+        <menu>
+            <item android:title="Admin Portal"
+                android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+                android:id="@+id/nav_admin"/>
+        </menu>
+    </item>   -->
+</menu>

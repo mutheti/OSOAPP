@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:title="Add User"
+        android:icon="@drawable/ic_baseline_edit_note_24"/>
+    <item android:id="@+id/item2"
+        android:title="Disable User"
+      />
+    <item android:id="@+id/item3"
+        android:title="Delete User"
+        android:icon="@drawable/ic_baseline_logout_24"/>
+
+</menu>

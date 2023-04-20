@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/title"
+    android:title="Filter By:"
+    >
+    <menu>
+    <item android:id="@+id/item1"
+        android:title="All"
+      />
+    <item android:id="@+id/item2"
+        android:title="Approved"
+       />
+    <item android:id="@+id/item3"
+        android:title="Not Approved"
+        />
+    <item android:id="@+id/item4"
+        android:title="Price"
+       />
+    <item android:id="@+id/item5"
+        android:title="Category"
+       >
+        <menu>
+            <item
+                android:id="@+id/cat1"
+                android:title="Smartphones $ Electonics"
+                />
+            <item
+                android:id="@+id/cat2"
+                android:title="Furniture"
+                />
+            <item
+                android:id="@+id/cat3"
+                android:title="Electronics"/>
+            <item
+                android:id="@+id/cat4"
+                android:title="Fruits $ Vegetables"
+                />
+            <item
+                android:id="@+id/cat5"
+                android:title="Fashion"
+                />
+            <item
+                android:id="@+id/cat6"
+                android:title="Households"/>
+
+        </menu>
+    </item>
+    <item android:id="@+id/item6"
+        android:title="Location"
+        />
+    </menu>
+</item>
+</menu>

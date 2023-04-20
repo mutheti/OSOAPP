@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "534748474376",
+    "project_id": "osoap-efeab",
+    "storage_bucket": "osoap-efeab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534748474376:android:c9a5c7e5769237968b35bd",
+        "android_client_info": {
+          "package_name": "com.company.dante.osoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpbkKshWOkStNxkS85c4s-pKKcxngIrRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534748474376:android:df429b6a914be5a98b35bd",
+        "android_client_info": {
+          "package_name": "com.example.dante.osoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpbkKshWOkStNxkS85c4s-pKKcxngIrRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534748474376:android:2f2c7ea358a20e2f8b35bd",
+        "android_client_info": {
+          "package_name": "com.example.snackbite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpbkKshWOkStNxkS85c4s-pKKcxngIrRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534748474376-o43isctgjs780u2kaml20jkt61jod5g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

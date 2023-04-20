@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/scroll">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout"
+                >
+
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="70dp"
+                    android:src="@drawable/outline_account_circle_24" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pic"
+                    android:id="@+id/welcome"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Person Details"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/welcome"
+                    android:gravity="center_horizontal"
+                    android:text="We just need you to fill in some details"
+                    android:id="@+id/type"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15sp"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="35dp"
+                    android:layout_below="@+id/type"
+                    android:id="@+id/fname"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/blue_700"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="First Name"
+                        android:background="@color/white"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_below="@+id/fname"
+                    android:id="@+id/lname"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/blue_700"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:hint="Last Name"
+                        android:background="@color/white"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_below="@+id/lname"
+                    android:id="@+id/phone"
+                    app:boxBackgroundMode="outline"
+                    app:boxBackgroundColor="@color/blue_700"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Phone Number"
+                        android:background="@color/white"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/conti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/phone"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="@drawable/button"
+                    android:text="Continue"
+                    android:textAllCaps="false" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

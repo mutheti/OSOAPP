@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="3dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:id="@+id/prof_image"
+                        android:background="@drawable/imagelayout"
+                        android:src="@drawable/ic_baseline_person_outline_24" />
+
+                    <TextView
+                        android:id="@+id/home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_toEndOf="@+id/prof_image"
+                        android:paddingTop="5dp"
+                        android:text="My Account"
+                        android:textColor="@color/blue_700" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/home"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="70dp"
+                        android:background="@color/white"
+                        android:id="@+id/searchbtn"
+                        android:src="@drawable/ic_baseline_search_24" />
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:backgroundTint="@color/blue_700"
+                        android:paddingBottom="30dp"
+                        android:layout_marginEnd="30dp"
+                        app:cardCornerRadius="10dp">
+
+                        <TextView
+                            android:id="@+id/quantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@id/cart"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="0dp"
+                            android:layout_toEndOf="@id/cart"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+                    </androidx.cardview.widget.CardView>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/searchbtn"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="40dp"
+                        android:background="@color/white"
+                        android:id="@+id/notify"
+                        android:src="@drawable/ic_outline_shopping_cart_24" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/notify"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/white"
+                        android:id="@+id/sidebar"
+                        android:src="@drawable/ic_baseline_more_vert_24" />
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@id/layout1"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:queryHint="search here"
+                    android:layout_marginTop="25dp"
+                    android:visibility="invisible"
+                    android:id="@+id/search"
+                    android:background="@drawable/imagelayout"
+                    android:backgroundTint="@color/gray_500"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Coming Soon"
+                android:textColor="@color/blue_700" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        >
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/admin_menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

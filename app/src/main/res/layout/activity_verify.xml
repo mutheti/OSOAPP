@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/scroll">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout"
+                >
+
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="120dp"
+                    android:src="@drawable/baseline_verified_24" />
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/pic"
+                   android:layout_marginTop="10dp"
+                   android:id="@+id/layout1"
+                   >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/welcome"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="username,Your account has been created!"
+                    android:textSize="15sp"
+                    />
+               </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/layout1"
+                    android:gravity="center_horizontal"
+                    android:text="Welcome to Osoapp Account"
+                    android:id="@+id/type"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="15sp"
+                    />
+
+
+                <Button
+                    android:id="@+id/verify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/type"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="@drawable/button"
+                    android:text="Get Started"
+                    android:textAllCaps="false" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

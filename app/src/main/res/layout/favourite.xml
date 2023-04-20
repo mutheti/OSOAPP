@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout"
+            android:layout_margin="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/b1" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/image"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beef Burger"
+                    android:id="@+id/name"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_margin="6dp"
+                    android:textFontWeight="10"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="A very delicious meal that makes you enjoy with your family. A very delicious meal that makes you enjoy with your family "
+                    android:id="@+id/descr"
+                    android:layout_below="@+id/name"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="10dp"
+                    android:textFontWeight="10"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descr"
+                    android:layout_margin="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ksh. 230"
+                        android:textColor="@color/blue_700"
+                        android:textFontWeight="10"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/additem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/white"
+                        android:paddingTop="20dp"
+                        android:visibility="invisible"
+                        android:src="@drawable/ic_baseline_add_shopping_cart_24" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

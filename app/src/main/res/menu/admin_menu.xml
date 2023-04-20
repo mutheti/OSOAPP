@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item android:title="My Admin Account">
+            <menu>
+                <item android:id="@+id/a_profile"
+                    android:title="My Profile"
+                    android:icon="@drawable/ic_baseline_person_outline_24"
+                    />
+                <item android:id="@+id/edit_profile"
+                    android:title="Edit Profile"
+                    android:icon="@drawable/ic_baseline_edit_note_24"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Tasks">
+
+        <menu>
+
+            <item
+                android:title="Customers"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:id="@+id/clients"
+                />
+            <item android:title="Snacks"
+            android:id="@+id/snack"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                />
+            <item
+                android:title="Orders"
+                android:icon="@drawable/ic_outline_shopping_cart_24"
+                android:id="@+id/orders"
+                />
+            <item android:title="Sales"
+                android:id="@+id/sales"
+                android:icon="@drawable/ic_baseline_sell_24"
+                />
+
+        </menu>
+    </item>
+    <item
+        android:title="Admin Panel"
+        >
+        <menu>
+            <item android:title="Admin Settings"
+                android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+                android:id="@+id/na_admin"/>
+            <item android:title="Logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:id="@+id/logout"/>
+        </menu>
+    </item>
+</menu>

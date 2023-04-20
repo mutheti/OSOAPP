@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.133" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/drawable/white_box.xml" value="0.12" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_account.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_account2.xml" value="0.18" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_add_snack.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_admin.xml" value="0.22" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_cart.xml" value="0.18426678067550234" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_favourite.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_order.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_orders.xml" value="0.18426678067550234" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_payment.xml" value="0.16" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_snack_details.xml" value="0.18426678067550234" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_verified_order.xml" value="0.18" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_verify.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/activity_welcoming_window.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/favourite.xml" value="0.22" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/nav_header.xml" value="0.18426678067550234" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/orderslayout.xml" value="0.25" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/payment_receipt_items.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/reset_password.xml" value="0.1834117144078666" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/layout/snacklayout.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/admin_menu.xml" value="0.18426678067550234" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/cart_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/drawer_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/product2.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/products.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/profile_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Dante/AndroidStudioProjects/OSOAPP/app/src/main/res/menu/user.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
